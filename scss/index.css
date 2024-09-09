@@ -119,7 +119,7 @@ body {
 }
 .hero {
   width: 100%;
-  background: url("../assets/Hero-Bg.svg") no-repeat center center;
+  background: url("../assets/Hero-Bg.webp") no-repeat center center;
   background-size: cover;
   min-height: 90dvh;
   font-family: "Mulish", system-ui;
@@ -180,6 +180,8 @@ body {
   border: none;
   color: #BBC8D4;
   padding: 1rem;
+  border: 2px solid #BBC8D4;
+  outline: none;
 }
 
 .about {
@@ -417,25 +419,28 @@ figcaption {
   background-color: #fff;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   text-align: center;
-  padding: 2rem 2rem 0 2rem;
+  flex-direction: column;
+  padding: 1rem 1rem 0 1rem;
   box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.2509803922);
   font-family: "Mulish", system-ui;
-  height: 55dvh;
+  height: 20rem;
   z-index: 2;
 }
-.objective_card_text {
+
+.card_text {
   font-weight: 100;
   color: #495C76;
-  margin: 1rem;
   font-family: "Open Sans", system-ui;
+  width: 80%;
+  margin: 1rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .objective_card {
-    height: 55dvh;
+    height: 25rem;
   }
 }
 .mission {
@@ -702,6 +707,8 @@ figcaption {
   height: 3rem;
   padding: 1rem;
   color: #BBC8D4;
+  outline: none;
+  border: 2px solid #BBC8D4;
 }
 
 @media (max-width: 500px) {

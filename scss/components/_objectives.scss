@@ -23,22 +23,24 @@
 .objective_card{
     flex-basis: 300px;
     background-color: #fff;
-    @include flex(center,center);
+    @include flex(center,flex-start);
     text-align: center;
-    padding: 2rem 2rem 0 2rem;
+    flex-direction: column;
+    padding: 1rem 1rem 0 1rem;
     box-shadow: 0px 10px 15px 0px #06000040;
     @include primary_font;
-    height: 55dvh;
-    &_text{
-        font-weight: 100;
-        color: #495C76;
-        margin: 1rem;
-        @include secondary_font;
-    }
+    height: 20rem;
     z-index: 2;
 }
-@media (max-width:500px){
+.card_text{
+    font-weight: 100;
+    color: #495C76;
+    @include secondary_font;
+    width: 80%;
+    margin: 1rem;
+}
+@media (max-width:600px){
     .objective_card{
-        height: 55dvh;
+        height: 25rem;
     }
 }
