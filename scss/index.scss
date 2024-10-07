@@ -16,15 +16,15 @@
     width: 75%;
     margin: 1rem;
     font-size: 1rem;
-}
-.navbar_list{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.navbar_link{
-    font-weight: 300;
+    &_list{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &_link{
+        font-weight: 300;
+    }
 }
 @media (max-width:578px){
     .hamburger{
