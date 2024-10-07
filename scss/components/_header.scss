@@ -1,8 +1,6 @@
 .header{
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex;
     flex-direction: column;
     padding: 0.5rem;
     overflow-x: hidden;
@@ -16,9 +14,7 @@
     font-size: 1rem;
     &_list{
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+        @include flex(center,space-around);
     }
     &_link{
         font-weight: 300;
