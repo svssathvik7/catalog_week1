@@ -543,7 +543,28 @@ figcaption {
   flex-direction: column;
   width: 100%;
   background-color: #F64C72;
+  color: white;
+  padding: 4rem 2rem;
 }
 .work p {
   width: 65%;
+  font-size: 0.95rem;
+  margin: 1rem;
+  text-align: center;
+}
+.work_title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.work_input {
+  width: 15rem;
+  height: 3rem;
+  padding: 1rem;
+  color: #BBC8D4;
+}
+
+@media (max-width: 500px) {
+  .work p {
+    width: 90%;
+  }
 }/*# sourceMappingURL=index.css.map */
