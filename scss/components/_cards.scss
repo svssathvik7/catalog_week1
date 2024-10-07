@@ -27,3 +27,12 @@
 figcaption{
     font-weight: 400;
 }
+@media (min-width:400px){
+    .card{
+        width: 25%;
+    }
+    .cards{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
