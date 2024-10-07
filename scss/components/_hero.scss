@@ -1,0 +1,11 @@
+.hero{
+    width: 100%;
+    background: url("../assets/Hero-Bg.svg") no-repeat center center;
+    background-size: cover;
+    &_title{
+        // font-size: 5rem;
+        text-align: center;
+        color: white;
+        text-wrap: wrap;
+    }
+}
