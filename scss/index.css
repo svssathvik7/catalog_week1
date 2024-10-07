@@ -567,4 +567,41 @@ figcaption {
   .work p {
     width: 90%;
   }
+}
+.footer {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: #553D67;
+  text-align: left;
+}
+.footer > section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.social-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: -moz-fit-content;
+  width: fit-content;
+  flex-direction: row !important;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+@media (max-width: 500px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
 }/*# sourceMappingURL=index.css.map */

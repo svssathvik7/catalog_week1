@@ -1,0 +1,25 @@
+.footer{
+    width: 100%;
+    padding: 2rem;
+    @include flex(center,space-between);
+    flex-direction: row;
+    color: $text_primary;
+    text-align: left;
+    & > section{
+        @include flex;
+        flex-direction: column;
+    }
+}
+.social-footer{
+    @include flex;
+    width: fit-content;
+    flex-direction: row!important;
+    gap: 1rem;
+    margin: 2rem;
+}
+@media (max-width:500px){
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+}
