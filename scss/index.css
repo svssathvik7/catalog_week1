@@ -447,6 +447,14 @@ figcaption {
   margin-bottom: 1rem;
   box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.2509803922);
 }
+.team_next {
+  display: block;
+  align-self: flex-end;
+  text-decoration: none;
+  color: #553D67;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
 
 .team_card_title {
   font-weight: 600;
@@ -476,5 +484,8 @@ figcaption {
   }
   .team_flex {
     flex-direction: column;
+  }
+  .team_next {
+    display: none;
   }
 }/*# sourceMappingURL=index.css.map */

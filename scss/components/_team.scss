@@ -29,6 +29,14 @@
         margin-bottom: 1rem;
         box-shadow: 0px 10px 15px 0px #06000040;
     }
+    &_next{
+        display: block;
+        align-self: flex-end;
+        text-decoration: none;
+        color: $text_primary;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
 }
 .team_card{
     &_title{
@@ -59,6 +67,9 @@
         }
         &_flex{
             flex-direction: column;
+        }
+        &_next{
+            display: none;
         }
     }
 }
