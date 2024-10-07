@@ -9,6 +9,7 @@
 <body>
     <header class="header">
         <picture class="header_logo">
+            <source srcset="./assets/Logo.svg" media="(min-width: 992px)">
             <source srcset="./assets/Logo1.svg" media="(min-width: 576px)">
             
             <!-- Default image for screens smaller than 576px -->
@@ -18,6 +19,16 @@
         <picture class="hamburger">
             <img alt="Hamburger Menu" src="./assets/Hamburger.svg" />
         </picture>
+
+        <nav class="navbar" aria-label="Main Navigation">
+            <ul class="navbar_list">
+                <li class="navbar_item"><a href="#home" class="navbar_link">Home</a></li>
+                <li class="navbar_item"><a href="#about" class="navbar_link">About</a></li>
+                <li class="navbar_item"><a href="#services" class="navbar_link">Services</a></li>
+                <li class="navbar_item"><a href="#team" class="navbar_link">Team</a></li>
+                <li class="navbar_item"><a href="#contactus" class="navbar_link">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>    
 </body>
 </html>
