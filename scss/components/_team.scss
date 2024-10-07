@@ -3,7 +3,6 @@
     flex-direction: column;
     overflow-x: hidden;
     width: 100%;
-
     &_title_holder{
         @include flex;
         flex-direction: column;
@@ -18,20 +17,17 @@
     }
     &_flex{
         @include flex(flex-start,flex-start);
-        gap:2rem;
+        gap:1rem;
         flex-direction: row;
         padding: 2rem;
+        overflow-x: auto;
+        width: 100%;
     }
 
     &_card{
         @include flex(flex-start,flex-start);
         flex-direction: column;
-        width: 30dvw;
-        min-width: 200px;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
         box-shadow: 0px 10px 15px 0px #06000040;
-        height: 380px;
     }
     &_next{
         display: block;
@@ -40,9 +36,13 @@
         color: $text_primary;
         padding: 1rem;
         font-size: 1.2rem;
+        margin-right: 2rem;
     }
 }
 .team_card{
+    width: 45dvw;
+    height: 25rem;
+    padding: 1rem;
     &_title{
         font-weight: 600;
         font-size: 1.5rem;
@@ -52,11 +52,11 @@
         font-size: 0.8rem;
         color: #6D7D8B;
     }
-    & section{
-        padding: 1rem;
-    }
     &_text{
         color: #697694;
+    }
+    & section{
+        margin: 1rem 0;
     }
     &_dp{
         object-fit: contain;
@@ -74,12 +74,13 @@
         }
     }
 }
-@media (max-width:700px){
+@media (max-width:500px){
     .team{
         &_card{
-            width: 80dvw;
+            width: 80%;
         }
         &_flex{
+            @include flex;
             flex-direction: column;
         }
         &_next{
