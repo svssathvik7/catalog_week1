@@ -3,7 +3,6 @@
     @include flex;
     padding: 2rem;
     overflow-x: hidden;
-    flex-direction: column;
     &_title_holder{
         @include flex;
         flex-direction: column;
@@ -40,7 +39,13 @@
 }
 @media (min-width:700px){
     .objective_card{
-        width: 25dvw;
-        height: 45dvh;
+        width: 40dvw;
+        height: 40dvh;
+    }
+}
+@media (min-width:900px){
+    .objective_card{
+        width: 30dvw;
+        height: 40dvh;
     }
 }
