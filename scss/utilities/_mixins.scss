@@ -4,3 +4,12 @@
     justify-content: $justify;
     flex-wrap: wrap;
 }
+@mixin paragraph_styling($text_color:#fff){
+    padding: 1rem;
+    color: $text_color;
+    text-indent: 1rem;
+    font-weight: 300;
+    line-height: 1.75;
+    text-align: center;
+    font-size: 1rem;
+}

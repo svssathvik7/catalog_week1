@@ -1,0 +1,15 @@
+.mission{
+    background-color: $primary-bg;
+    padding: 2rem;
+    color: white;
+    @include flex;
+    flex-direction: column;
+    &_title{
+        color: white;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+    &_paragraph{
+        @include paragraph_styling;
+    }
+}

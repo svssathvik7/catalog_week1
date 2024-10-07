@@ -27,13 +27,7 @@
     letter-spacing: 2px;
 }
 .about_paragraph{
-    padding: 1rem;
-    color: #6D7D8B;
-    text-indent: 1rem;
-    font-weight: 300;
-    line-height: 1.75;
-    text-align: center;
-    font-size: 1.25rem;
+    @include paragraph_styling(#6D7D8B);
 }
 .about_image{
     display: none;

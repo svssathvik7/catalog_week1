@@ -187,7 +187,7 @@
   font-weight: 300;
   line-height: 1.75;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .about_image {
@@ -339,4 +339,29 @@ figcaption {
   color: #553D67;
   font-family: "Mulish";
   letter-spacing: 2px;
+}
+
+.mission {
+  background-color: #F64C72;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.mission_title {
+  color: white;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+.mission_paragraph {
+  padding: 1rem;
+  color: #fff;
+  text-indent: 1rem;
+  font-weight: 300;
+  line-height: 1.75;
+  text-align: center;
+  font-size: 1rem;
 }/*# sourceMappingURL=index.css.map */
