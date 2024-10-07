@@ -1,0 +1,9 @@
+.work{
+    @include flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: $primary-bg;
+    & p{
+        width: 65%;
+    }
+}
