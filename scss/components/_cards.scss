@@ -2,15 +2,16 @@
     width: 100%;
     min-height: fit-content;
     overflow-x: hidden;
-    @include flex(center,flex-start);
-    flex-direction: column;
+    @include flex(center,space-around);
+    flex-direction: row;
     gap: 2rem;
     margin: 2rem 0 0 0;
     height: fit-content;
     background: linear-gradient(180deg,#fff 70%,$primary-bg 30%);
 }
 .card{
-    width: 80%;
+    width: 30%;
+    flex-basis: 300px;
     background-color: #fff;
     @include flex(center,center);
     flex-direction: column;
@@ -18,7 +19,7 @@
     padding: 2rem 2rem 0 2rem;
     box-shadow: 0px 10px 15px 0px #06000040;
     font-family: "Mulish";
-    height: 25rem;
+    height: 20rem;
     &_text{
         font-weight: 100;
         color: #495C76;
@@ -29,13 +30,9 @@
 figcaption{
     font-weight: 400;
 }
-@media (min-width:700px){
+@media (max-width:500px){
     .card{
-        width: 25dvw;
+        width: 85dvw;
         height: 35dvh;
-    }
-    .cards{
-        flex-direction: row;
-        justify-content: center;
     }
 }

@@ -1,7 +1,7 @@
 .achievements{
     width: 100%;
     padding: 2rem 2rem 4rem 2rem;
-    min-height: 70dvh;
+    min-height: fit-content;
     overflow-x: hidden;
     @include flex(center,center);
     flex-direction: column;
@@ -40,5 +40,15 @@
     &_numeric{
         font-weight: 700;
         font-size: 2.25rem;
+    }
+}
+@media (min-width: 900px){
+    .achievements{
+        &_text{
+            width: 65%;
+        }
+        &_stats{
+            width: 80%;
+        }
     }
 }
