@@ -20,3 +20,26 @@
         letter-spacing: 2px;
     }
 }
+.objective_card{
+    width: 80%;
+    background-color: #fff;
+    @include flex(center,center);
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 2rem 0 2rem;
+    box-shadow: 0px 10px 15px 0px #06000040;
+    font-family: "Mulish";
+    height: 25rem;
+    &_text{
+        font-weight: 100;
+        color: #495C76;
+        margin: 1rem;
+    }
+    z-index: 2;
+}
+@media (min-width:700px){
+    .objective_card{
+        width: 25dvw;
+        height: 45dvh;
+    }
+}

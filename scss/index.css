@@ -205,6 +205,7 @@ body {
     top: -5rem;
     box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.2509803922);
     background-color: #fff;
+    padding: 2rem;
   }
 }
 @media (min-width: 400px) {
@@ -262,7 +263,8 @@ figcaption {
 
 @media (min-width: 700px) {
   .card {
-    width: 35%;
+    width: 20dvw;
+    height: 40dvh;
   }
   .cards {
     flex-direction: row;
@@ -355,6 +357,33 @@ figcaption {
   letter-spacing: 2px;
 }
 
+.objective_card {
+  width: 80%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem 2rem 0 2rem;
+  box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.2509803922);
+  font-family: "Mulish";
+  height: 25rem;
+  z-index: 2;
+}
+.objective_card_text {
+  font-weight: 100;
+  color: #495C76;
+  margin: 1rem;
+}
+
+@media (min-width: 700px) {
+  .objective_card {
+    width: 25dvw;
+    height: 45dvh;
+  }
+}
 .mission {
   background-color: #F64C72;
   color: white;
