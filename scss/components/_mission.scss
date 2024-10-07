@@ -2,6 +2,7 @@
     background-color: $primary-bg;
     padding: 2rem;
     color: white;
+    width: 100%;
     @include flex;
     flex-direction: column;
     &_title{
@@ -11,5 +12,13 @@
     }
     &_paragraph{
         @include paragraph_styling;
+    }
+    &_button{
+        background-color: $primary-bg;
+        color: #fff; 
+        width: 10rem;
+        height: 3.5rem;
+        border: 0.15rem solid white;
+        border-radius: 0.5rem;
     }
 }

@@ -247,7 +247,7 @@ figcaption {
   font-weight: 400;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
   .card {
     width: 35%;
   }
@@ -316,6 +316,7 @@ figcaption {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 2rem;
   flex-direction: column;
 }
 .objectives_title_holder {
@@ -345,6 +346,7 @@ figcaption {
   background-color: #F64C72;
   padding: 2rem;
   color: white;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -364,4 +366,12 @@ figcaption {
   line-height: 1.75;
   text-align: center;
   font-size: 1rem;
+}
+.mission_button {
+  background-color: #F64C72;
+  color: #fff;
+  width: 10rem;
+  height: 3.5rem;
+  border: 0.15rem solid white;
+  border-radius: 0.5rem;
 }/*# sourceMappingURL=index.css.map */

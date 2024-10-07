@@ -1,6 +1,7 @@
 .objectives{
     width: 100%;
     @include flex;
+    padding: 2rem;
     flex-direction: column;
     &_title_holder{
         @include flex;
