@@ -344,14 +344,12 @@ figcaption {
 
 .mission {
   background-color: #F64C72;
-  padding: 2rem;
   color: white;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  flex-direction: column;
 }
 .mission_title {
   color: white;
@@ -374,4 +372,34 @@ figcaption {
   height: 3.5rem;
   border: 0.15rem solid white;
   border-radius: 0.5rem;
+}
+.mission_pic {
+  display: none;
+}
+.mission article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+@media (min-width: 900px) {
+  .mission {
+    flex-direction: row;
+  }
+  .mission_pic {
+    display: block;
+    width: 50%;
+  }
+  .mission article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2rem;
+    width: 50%;
+  }
 }/*# sourceMappingURL=index.css.map */
