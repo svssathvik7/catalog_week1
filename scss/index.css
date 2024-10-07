@@ -109,6 +109,32 @@
 }
 @media (max-width: 578px) {
   .hero_caption {
-    width: 30ch;
+    width: 35ch;
   }
+}
+.hero_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.hero_form_btn {
+  background-color: #F64C72;
+  width: 10rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+}
+
+.hero_form_input {
+  width: 20rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #BBC8D4;
+  padding: 1rem;
 }/*# sourceMappingURL=index.css.map */
