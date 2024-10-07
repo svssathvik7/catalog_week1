@@ -1,6 +1,7 @@
 .team{
     @include flex;
     flex-direction: column;
+    overflow-x: hidden;
     &_title_holder{
         @include flex;
         flex-direction: column;

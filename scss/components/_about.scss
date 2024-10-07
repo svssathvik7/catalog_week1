@@ -4,6 +4,7 @@
     @include flex(center,flex-start);
     flex-direction: column;
     padding: 2rem 0;
+    overflow-x: hidden;
 }
 .about_title_container{
     @include flex;

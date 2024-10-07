@@ -38,6 +38,7 @@ body {
   justify-content: center;
   flex-direction: column;
   padding: 0.5rem;
+  overflow-x: hidden;
 }
 
 .hamburger {
@@ -91,6 +92,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  overflow-x: hidden;
   flex-direction: column;
 }
 .hero_title {
@@ -155,6 +157,7 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   padding: 2rem 0;
+  overflow-x: hidden;
 }
 
 .about_title_container {
@@ -224,6 +227,7 @@ body {
   width: 100%;
   min-height: -moz-fit-content;
   min-height: fit-content;
+  overflow-x: hidden;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -275,6 +279,7 @@ figcaption {
   width: 100%;
   padding: 2rem 2rem 4rem 2rem;
   min-height: 70dvh;
+  overflow-x: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -332,6 +337,7 @@ figcaption {
   justify-content: center;
   flex-wrap: wrap;
   padding: 2rem;
+  overflow-x: hidden;
   flex-direction: column;
 }
 .objectives_title_holder {
@@ -392,6 +398,7 @@ figcaption {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  overflow-x: hidden;
 }
 .mission_title {
   color: white;
@@ -451,6 +458,7 @@ figcaption {
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
+  overflow-x: hidden;
 }
 .team_title_holder {
   display: flex;
@@ -592,6 +600,7 @@ figcaption {
   flex-direction: column;
   width: 100%;
   background-color: #F64C72;
+  overflow-x: hidden;
   color: white;
   padding: 4rem 2rem;
 }
@@ -620,6 +629,7 @@ figcaption {
 .footer {
   width: 100%;
   padding: 2rem;
+  overflow-x: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;

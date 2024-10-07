@@ -2,6 +2,7 @@
     width: 100%;
     @include flex;
     padding: 2rem;
+    overflow-x: hidden;
     flex-direction: column;
     &_title_holder{
         @include flex;

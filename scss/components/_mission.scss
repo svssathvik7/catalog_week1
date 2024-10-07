@@ -3,6 +3,7 @@
     color: white;
     width: 100%;
     @include flex;
+    overflow-x: hidden;
     &_title{
         color: white;
         font-weight: 700;

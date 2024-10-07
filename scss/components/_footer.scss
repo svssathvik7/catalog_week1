@@ -1,6 +1,7 @@
 .footer{
     width: 100%;
     padding: 2rem;
+    overflow-x: hidden;
     @include flex(center,space-between);
     flex-direction: row;
     color: $text_primary;

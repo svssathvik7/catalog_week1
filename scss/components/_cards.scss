@@ -1,6 +1,7 @@
 .cards{
     width: 100%;
     min-height: fit-content;
+    overflow-x: hidden;
     @include flex(center,flex-start);
     flex-direction: column;
     gap: 2rem;

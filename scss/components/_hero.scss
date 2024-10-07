@@ -5,6 +5,7 @@
     min-height: 90dvh;
     font-family: "Mulish", sans-serif;
     @include flex;
+    overflow-x: hidden;
     flex-direction: column;
     &_title{
         font-size: 3rem;
