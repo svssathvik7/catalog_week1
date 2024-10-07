@@ -28,7 +28,7 @@
     padding: 2rem 2rem 0 2rem;
     box-shadow: 0px 10px 15px 0px #06000040;
     font-family: "Mulish";
-    height: 30dvh;
+    height: 50dvh;
     &_text{
         font-weight: 100;
         color: #495C76;
@@ -38,6 +38,6 @@
 }
 @media (max-width:500px){
     .objective_card{
-        height: 40dvh;
+        height: 50dvh;
     }
 }
