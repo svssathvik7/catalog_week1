@@ -11,13 +11,13 @@
         gap: 1rem;
     }
     &_card{
-        width: 25dvw;
+        width: 18rem;
         @include flex;
         align-items: flex-start;
         flex-direction: column;
         padding: 1rem;
         box-shadow: 0px 10px 15px 0px #06000040;
-        height: 40dvh;
+        height: 18rem;
     }
     &_card_text{
         margin-top: 1rem;

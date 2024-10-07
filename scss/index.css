@@ -66,6 +66,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   flex-direction: column;
   padding: 0.5rem;
   overflow-x: hidden;
@@ -85,6 +86,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .navbar_link {
   font-weight: 300;
@@ -604,7 +606,7 @@ figcaption {
   gap: 1rem;
 }
 .feedback_card {
-  width: 25dvw;
+  width: 18rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -613,7 +615,7 @@ figcaption {
   flex-direction: column;
   padding: 1rem;
   box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.2509803922);
-  height: 40dvh;
+  height: 18rem;
 }
 .feedback_card_text {
   margin-top: 1rem;
