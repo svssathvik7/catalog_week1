@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+*::-webkit-scrollbar{
+    display: none;
+}
 body{
     width: 100dvw;
     overflow-x: hidden;
