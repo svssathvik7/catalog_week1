@@ -259,8 +259,7 @@ figcaption {
 .achievements {
   width: 100%;
   padding: 2rem 2rem 4rem 2rem;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
+  min-height: 70dvh;
   display: flex;
   align-items: center;
   justify-content: center;

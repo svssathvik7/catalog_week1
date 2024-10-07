@@ -1,7 +1,7 @@
 .achievements{
     width: 100%;
     padding: 2rem 2rem 4rem 2rem;
-    min-height: fit-content;
+    min-height: 70dvh;
     @include flex(center,center);
     flex-direction: column;
     background-color: $primary-bg;
