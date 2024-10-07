@@ -500,6 +500,8 @@ figcaption {
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
+  overflow: hidden;
+  width: 100%;
 }
 .feedback_scroller {
   width: 100%;
@@ -530,7 +532,7 @@ figcaption {
 
 @media (max-width: 500px) {
   .feedback_card {
-    width: 90dvw;
+    width: 80dvw;
   }
 }
 .work {
