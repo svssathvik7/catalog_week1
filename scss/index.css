@@ -551,10 +551,16 @@ figcaption {
   gap: 1rem;
 }
 .feedback_card {
-  width: 30dvw;
+  width: 25dvw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   align-items: flex-start;
+  flex-direction: column;
   padding: 1rem;
   box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.2509803922);
+  height: 40dvh;
 }
 .feedback_card_text {
   margin-top: 1rem;
@@ -565,6 +571,12 @@ figcaption {
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.feedback_user_caption {
+  color: #6D7D8B;
+  font-size: 0.75rem;
 }
 
 @media (max-width: 500px) {
