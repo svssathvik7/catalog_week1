@@ -155,7 +155,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 2rem;
+  margin: 2rem auto;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .about_line {

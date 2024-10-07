@@ -7,7 +7,8 @@
 .about_title_container{
     @include flex;
     flex-direction: column;
-    margin: 2rem;
+    margin: 2rem auto;
+    width: fit-content;
 }
 .about_line{
     width: 100%;
@@ -45,4 +46,7 @@
             margin-top: 2rem;
         }
     }
+}
+@media (min-width:900px){
+
 }
