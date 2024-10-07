@@ -143,11 +143,14 @@
 
 .about {
   width: 100%;
-  min-height: 80dvh;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
+  padding: 2rem 0;
+  box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.2509803922);
 }
 
 .about_title_container {
@@ -201,4 +204,40 @@
        object-fit: contain;
     margin-top: 2rem;
   }
+}
+.cards {
+  width: 100%;
+  min-height: 70dvh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: linear-gradient(180deg, #fff 70%, #F64C72 30%);
+}
+
+.card {
+  width: 80%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.2509803922);
+  font-family: "Mulish";
+}
+.card_text {
+  font-weight: 100;
+  color: #495C76;
+  margin: 1rem;
+}
+
+figcaption {
+  font-weight: 400;
 }/*# sourceMappingURL=index.css.map */
