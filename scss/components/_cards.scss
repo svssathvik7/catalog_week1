@@ -4,7 +4,7 @@
     @include flex(center,flex-start);
     flex-direction: column;
     gap: 2rem;
-    margin: 2rem 2rem 0 2rem;
+    margin: 2rem 0 0 0;
     height: fit-content;
     background: linear-gradient(180deg,#fff 70%,$primary-bg 30%);
 }
@@ -14,10 +14,10 @@
     @include flex(center,center);
     flex-direction: column;
     text-align: center;
-    flex-wrap: wrap;
     padding: 2rem 2rem 0 2rem;
     box-shadow: 0px 10px 15px 0px #06000040;
     font-family: "Mulish";
+    height: 25rem;
     &_text{
         font-weight: 100;
         color: #495C76;
@@ -28,9 +28,9 @@
 figcaption{
     font-weight: 400;
 }
-@media (min-width:400px){
+@media (min-width:500px){
     .card{
-        width: 25%;
+        width: 35%;
     }
     .cards{
         flex-direction: row;

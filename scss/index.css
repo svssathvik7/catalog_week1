@@ -19,6 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  flex-wrap: wrap;
   flex-direction: column;
   height: -moz-fit-content;
   height: fit-content;
@@ -78,15 +79,13 @@
 .hero {
   width: 100%;
   background: url("../assets/Hero-Bg.svg") no-repeat center center;
-  text-wrap: wrap;
   background-size: cover;
-  overflow-x: hidden;
   min-height: 90dvh;
-  padding: 2rem;
   font-family: "Mulish", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 .hero_title {
@@ -97,7 +96,7 @@
   color: white;
   overflow-wrap: normal;
   font-weight: 900;
-  width: clamp(75%, 50ch, 95%);
+  width: clamp(20rem, 40dvw, 40dvw);
 }
 .hero_caption {
   font-size: 1.25rem;
@@ -109,17 +108,17 @@
   line-height: 1.25;
   width: 50ch;
 }
-@media (max-width: 578px) {
+@media (max-width: 500px) {
   .hero_caption {
-    width: 35ch;
+    width: 30ch;
   }
 }
 .hero_form {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
   flex-wrap: wrap;
+  gap: 1rem;
   margin: 2rem;
 }
 
@@ -148,6 +147,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  flex-wrap: wrap;
   flex-direction: column;
   padding: 2rem 0;
   box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.2509803922);
@@ -157,6 +157,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   flex-direction: column;
   margin: 2rem auto;
   width: -moz-fit-content;
@@ -212,9 +213,10 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  flex-wrap: wrap;
   flex-direction: column;
   gap: 2rem;
-  margin: 2rem 2rem 0 2rem;
+  margin: 2rem 0 0 0;
   height: -moz-fit-content;
   height: fit-content;
   background: linear-gradient(180deg, #fff 70%, #F64C72 30%);
@@ -226,12 +228,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   flex-direction: column;
   text-align: center;
-  flex-wrap: wrap;
   padding: 2rem 2rem 0 2rem;
   box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.2509803922);
   font-family: "Mulish";
+  height: 25rem;
   z-index: 2;
 }
 .card_text {
@@ -244,9 +247,9 @@ figcaption {
   font-weight: 400;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
   .card {
-    width: 25%;
+    width: 35%;
   }
   .cards {
     flex-direction: row;
@@ -261,6 +264,7 @@ figcaption {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   flex-direction: column;
   background-color: #F64C72;
 }
@@ -283,6 +287,7 @@ figcaption {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  flex-wrap: wrap;
   width: 100%;
   gap: 1rem;
 }
@@ -292,6 +297,7 @@ figcaption {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 1rem;
   flex-direction: column;
 }
@@ -303,4 +309,35 @@ figcaption {
 .stat_card_numeric {
   font-weight: 700;
   font-size: 2.25rem;
+}
+
+.objectives {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.objectives_title_holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 2rem auto;
+}
+.objectives section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.objectives_title {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #553D67;
+  font-family: "Mulish";
+  letter-spacing: 2px;
 }/*# sourceMappingURL=index.css.map */

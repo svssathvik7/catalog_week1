@@ -1,11 +1,8 @@
 .hero{
     width: 100%;
     background: url("../assets/Hero-Bg.svg") no-repeat center center;
-    text-wrap: wrap;
     background-size: cover;
-    overflow-x: hidden;
     min-height: 90dvh;
-    padding: 2rem;
     font-family: "Mulish", sans-serif;
     @include flex;
     flex-direction: column;
@@ -17,7 +14,7 @@
         color: white;
         overflow-wrap: normal;
         font-weight: 900;
-        width: clamp(75%, 50ch, 95%);
+        width: clamp(20rem, 40dvw, 40dvw);
     }
     &_caption {
         font-size: 1.25rem;
@@ -29,14 +26,13 @@
         line-height: 1.25;
         width: 50ch;
     
-        @media (max-width: 578px) {
-            width: 35ch;
+        @media (max-width: 500px) {
+            width: 30ch;
         }
     }    
     &_form{
         @include flex;
         gap: 1rem;
-        flex-wrap: wrap;
         margin: 2rem;
     }
 }
