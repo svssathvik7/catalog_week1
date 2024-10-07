@@ -22,6 +22,7 @@
         padding: 2rem;
         overflow-x: auto;
         width: 100%;
+        flex-wrap: nowrap;
     }
 
     &_card{
@@ -40,8 +41,9 @@
     }
 }
 .team_card{
-    width: 45dvw;
-    height: 25rem;
+    width: 13rem;
+    min-width: 13rem;
+    height: 24rem;
     padding: 1rem;
     &_title{
         font-weight: 600;
@@ -64,27 +66,15 @@
         height: auto;
     }
 }
-@media (min-width:700px){
-    .team{
-        &_flex{
-            flex-wrap: nowrap;
-            overflow-x: auto;
-            width: 100%;
-            flex-direction: row;
-        }
-    }
-}
+
 @media (max-width:500px){
     .team{
         &_card{
             width: 80%;
         }
         &_flex{
-            @include flex;
             flex-direction: column;
-        }
-        &_next{
-            display: none;
+            @include flex;
         }
     }
 }
