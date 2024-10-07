@@ -174,7 +174,6 @@ body {
 }
 
 .about {
-  width: 100%;
   min-height: -moz-fit-content;
   min-height: fit-content;
   display: flex;
@@ -233,7 +232,7 @@ body {
   .about_child {
     width: 65%;
     position: relative;
-    top: 0rem;
+    top: -5rem;
     box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.2509803922);
     background-color: #fff !important;
     padding: 2rem;
