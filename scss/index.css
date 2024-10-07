@@ -491,6 +491,7 @@ figcaption {
   flex-wrap: wrap;
   flex-direction: column;
   overflow-x: hidden;
+  width: 100%;
 }
 .team_title_holder {
   display: flex;
@@ -509,25 +510,25 @@ figcaption {
 }
 .team_flex {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
   flex-direction: row;
-  overflow: scroll;
+  padding: 2rem;
 }
 .team_card {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-wrap: wrap;
   flex-direction: column;
-  align-items: flex-start;
   width: 30dvw;
-  padding: 1rem;
+  min-width: 200px;
   margin-top: 1rem;
   margin-bottom: 1rem;
   box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.2509803922);
+  height: 380px;
 }
 .team_next {
   display: block;
@@ -548,7 +549,7 @@ figcaption {
   color: #6D7D8B;
 }
 .team_card section {
-  margin: 1rem 0;
+  padding: 1rem;
 }
 .team_card_text {
   color: #697694;
@@ -560,6 +561,14 @@ figcaption {
   height: auto;
 }
 
+@media (min-width: 700px) {
+  .team_flex {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    flex-direction: row;
+  }
+}
 @media (max-width: 700px) {
   .team_card {
     width: 80dvw;
