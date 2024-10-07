@@ -6,6 +6,7 @@
     overflow-x: hidden;
     min-height: 90dvh;
     padding: 2rem;
+    font-family: "Mulish", sans-serif;
     @include flex;
     flex-direction: column;
     &_title{
