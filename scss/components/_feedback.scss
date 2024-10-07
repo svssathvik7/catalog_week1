@@ -1,0 +1,71 @@
+.feedback {
+    @include flex;
+    padding: 2rem;
+    flex-direction: column;
+    font-size: 1.5rem;
+
+    &_title_holder {
+        @include flex;
+        flex-direction: column;
+    }
+
+    &_scroller {
+        @include flex;
+        overflow-x: auto; // Use auto instead of scroll for a smoother experience
+        gap: 1rem;
+        flex-wrap: nowrap;
+        width: 100vw; // Corrected from 100dvw to 100vw
+        padding: 2rem;
+    }
+
+    &_card {
+        @include flex(flex-start);
+        flex-direction: column;
+        width: 25vw; // Corrected from 25dvw to 25vw
+        gap: 1rem;
+        box-shadow: 0px 10px 15px 0px #655A5A40;
+        padding: 1rem;
+        height: 60vh; // Corrected from 60dvh to 60vh
+    }
+
+    &_user {
+        @include flex;
+        gap: 0.5rem;
+    }
+}
+
+.feedback_card_text {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.feedback_user_caption {
+    font-size: 0.95rem;
+    color: #6D7D8B;
+}
+
+@media (max-width: 900px) {
+    .feedback {
+        &_card {
+            width: 50vw; // Corrected from 50dvw to 50vw
+            margin: 0;
+            height: 60vh;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .feedback {
+        &_card {
+            width: 80dvw; // Corrected from 80dvw to 80vw
+            margin: 0;
+            flex-direction: column;
+        }
+
+        &_scroller {
+            flex-direction: column;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+    }
+}

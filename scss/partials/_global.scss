@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+    width: 100dvw;
+    overflow-x: hidden;
+}
 .navbar_link{
     text-decoration: none;
     color: $text_primary;
