@@ -17,7 +17,7 @@
 .main {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   flex-direction: column;
   height: -moz-fit-content;
   height: fit-content;
@@ -85,6 +85,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .hero_title {
   font-size: 3rem;
@@ -93,4 +94,15 @@
   text-align: center;
   color: white;
   text-wrap: wrap;
+  font-weight: 900;
+}
+.hero_caption {
+  font-size: 1.25rem;
+  text-align: center;
+  color: white;
+  text-wrap: wrap;
+  font-weight: 700;
+  margin: 2rem;
+  line-height: 1.25;
+  width: 40ch;
 }/*# sourceMappingURL=index.css.map */

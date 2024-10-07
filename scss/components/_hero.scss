@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     &_title{
         font-size: 3rem;
         line-height: 1.25;
@@ -16,5 +17,16 @@
         text-align: center;
         color: white;
         text-wrap: wrap;
+        font-weight: 900;
+    }
+    &_caption{
+        font-size: 1.25rem;
+        text-align: center;
+        color: white;
+        text-wrap: wrap;
+        font-weight: 700;
+        margin: 2rem;
+        line-height: 1.25;
+        width: 40ch;
     }
 }
