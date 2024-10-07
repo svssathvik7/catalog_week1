@@ -207,13 +207,14 @@
 }
 .cards {
   width: 100%;
-  min-height: 70dvh;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   gap: 2rem;
-  margin: 2rem;
+  margin: 2rem 2rem 0 2rem;
   height: -moz-fit-content;
   height: fit-content;
   background: linear-gradient(180deg, #fff 70%, #F64C72 30%);
@@ -228,9 +229,10 @@
   flex-direction: column;
   text-align: center;
   flex-wrap: wrap;
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
   box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.2509803922);
   font-family: "Mulish";
+  z-index: 2;
 }
 .card_text {
   font-weight: 100;
@@ -250,4 +252,55 @@ figcaption {
     flex-direction: row;
     justify-content: center;
   }
+}
+.achievements {
+  width: 100%;
+  padding: 2rem 2rem 4rem 2rem;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F64C72;
+}
+.achievements_title {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.achievements_text {
+  color: white;
+  font-weight: 500;
+  line-height: 1.75;
+  text-align: center;
+  width: 85%;
+  margin: 2rem;
+}
+.achievements_stats {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+}
+
+.stat_card {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  flex-direction: column;
+}
+.stat_card_caption {
+  font-weight: 600;
+  font-size: 0.75rem;
+  font-family: "Open Sans";
+}
+.stat_card_numeric {
+  font-weight: 700;
+  font-size: 2.25rem;
 }/*# sourceMappingURL=index.css.map */
