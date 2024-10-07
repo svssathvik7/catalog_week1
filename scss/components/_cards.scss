@@ -24,11 +24,13 @@
         font-weight: 100;
         color: #495C76;
         margin: 1rem;
+        @include secondary_font;
     }
     z-index: 2;
 }
 figcaption{
     font-weight: 400;
+    @include primary_font;
 }
 @media (max-width:500px){
     .card{

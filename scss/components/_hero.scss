@@ -3,7 +3,7 @@
     background: url("../assets/Hero-Bg.svg") no-repeat center center;
     background-size: cover;
     min-height: 90dvh;
-    font-family: "Mulish", sans-serif;
+    @include primary_font;
     @include flex;
     overflow-x: hidden;
     flex-direction: column;

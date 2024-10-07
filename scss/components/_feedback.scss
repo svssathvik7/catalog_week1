@@ -3,6 +3,7 @@
     flex-direction: column;
     overflow: hidden;
     width: 100%;
+    @include secondary_font;
     &_scroller{
         width: 100%;
         overflow-x: scroll;

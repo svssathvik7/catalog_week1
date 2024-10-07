@@ -31,10 +31,12 @@ body{
 .title-light{
     font-size: 2rem;
     color: white;
+    @include primary_font;
 }
 .title-dark{
     font-size: 2rem;
     color: $text_primary;
+    @include primary_font;
 }
 @media (max-width:500px){
     .title-light{

@@ -4,6 +4,7 @@
     flex-direction: column;
     padding: 0.5rem;
     overflow-x: hidden;
+    @include secondary_font;
 }
 .hamburger{
     display: none;

@@ -4,6 +4,7 @@
     width: 100%;
     @include flex;
     overflow-x: hidden;
+    @include primary_font;
     &_title{
         color: white;
         font-weight: 700;

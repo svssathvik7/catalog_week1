@@ -12,7 +12,7 @@
         font-size: 2rem;
         font-weight: 400;
         color: $text_primary;
-        font-family: "Mulish";
+        @include primary_font;
         letter-spacing: 2px;
     }
     &_flex{
@@ -41,10 +41,11 @@
     }
 }
 .team_card{
-    width: 13rem;
-    min-width: 13rem;
+    width: 15rem;
+    min-width: 15rem;
     height: 24rem;
     padding: 1rem;
+    @include primary_font;
     &_title{
         font-weight: 600;
         font-size: 1.5rem;
@@ -56,6 +57,7 @@
     }
     &_text{
         color: #697694;
+        @include secondary_font;
     }
     & section{
         margin: 1rem 0;

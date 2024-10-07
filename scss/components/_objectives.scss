@@ -16,7 +16,7 @@
         font-size: 2rem;
         font-weight: 400;
         color: $text_primary;
-        font-family: "Mulish";
+        @include primary_font;
         letter-spacing: 2px;
     }
 }
@@ -27,12 +27,13 @@
     text-align: center;
     padding: 2rem 2rem 0 2rem;
     box-shadow: 0px 10px 15px 0px #06000040;
-    font-family: "Mulish";
+    @include primary_font;
     height: 50dvh;
     &_text{
         font-weight: 100;
         color: #495C76;
         margin: 1rem;
+        @include secondary_font;
     }
     z-index: 2;
 }

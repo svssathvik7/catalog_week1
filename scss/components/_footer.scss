@@ -3,6 +3,7 @@
     padding: 2rem;
     overflow-x: hidden;
     @include flex(center,space-between);
+    @include secondary_font;
     flex-direction: row;
     color: $text_primary;
     text-align: left;

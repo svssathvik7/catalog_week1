@@ -42,11 +42,13 @@ body {
 .title-light {
   font-size: 2rem;
   color: white;
+  font-family: "Mulish", system-ui;
 }
 
 .title-dark {
   font-size: 2rem;
   color: #553D67;
+  font-family: "Mulish", system-ui;
 }
 
 @media (max-width: 500px) {
@@ -70,6 +72,7 @@ body {
   flex-direction: column;
   padding: 0.5rem;
   overflow-x: hidden;
+  font-family: "Open Sans", system-ui;
 }
 
 .hamburger {
@@ -119,7 +122,7 @@ body {
   background: url("../assets/Hero-Bg.svg") no-repeat center center;
   background-size: cover;
   min-height: 90dvh;
-  font-family: "Mulish", sans-serif;
+  font-family: "Mulish", system-ui;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -209,7 +212,8 @@ body {
   height: 0.25rem;
   background-color: #F64C72;
   border-radius: 1rem;
-  margin: 1rem;
+  margin: 1rem auto;
+  text-align: center;
 }
 
 .about_title {
@@ -228,6 +232,7 @@ body {
   line-height: 1.75;
   text-align: center;
   font-size: 1rem;
+  font-family: "Open Sans", system-ui;
 }
 
 .about_image {
@@ -294,10 +299,12 @@ body {
   font-weight: 100;
   color: #495C76;
   margin: 1rem;
+  font-family: "Open Sans", system-ui;
 }
 
 figcaption {
   font-weight: 400;
+  font-family: "Mulish", system-ui;
 }
 
 @media (max-width: 500px) {
@@ -323,6 +330,7 @@ figcaption {
   color: white;
   font-size: 1.5rem;
   font-weight: 700;
+  font-family: "Mulish", system-ui;
 }
 .achievements_text {
   color: white;
@@ -331,6 +339,7 @@ figcaption {
   text-align: center;
   width: 85%;
   margin: 2rem;
+  font-family: "Open Sans", system-ui;
 }
 .achievements_stats {
   color: white;
@@ -355,11 +364,12 @@ figcaption {
 .stat_card_caption {
   font-weight: 600;
   font-size: 0.75rem;
-  font-family: "Open Sans";
+  font-family: "Open Sans", system-ui;
 }
 .stat_card_numeric {
   font-weight: 700;
   font-size: 2.25rem;
+  font-family: "Mulish", system-ui;
 }
 
 @media (min-width: 900px) {
@@ -398,7 +408,7 @@ figcaption {
   font-size: 2rem;
   font-weight: 400;
   color: #553D67;
-  font-family: "Mulish";
+  font-family: "Mulish", system-ui;
   letter-spacing: 2px;
 }
 
@@ -412,7 +422,7 @@ figcaption {
   text-align: center;
   padding: 2rem 2rem 0 2rem;
   box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.2509803922);
-  font-family: "Mulish";
+  font-family: "Mulish", system-ui;
   height: 50dvh;
   z-index: 2;
 }
@@ -420,6 +430,7 @@ figcaption {
   font-weight: 100;
   color: #495C76;
   margin: 1rem;
+  font-family: "Open Sans", system-ui;
 }
 
 @media (max-width: 500px) {
@@ -436,6 +447,7 @@ figcaption {
   justify-content: center;
   flex-wrap: wrap;
   overflow-x: hidden;
+  font-family: "Mulish", system-ui;
 }
 .mission_title {
   color: white;
@@ -450,6 +462,7 @@ figcaption {
   line-height: 1.75;
   text-align: center;
   font-size: 1rem;
+  font-family: "Open Sans", system-ui;
 }
 .mission_button {
   background-color: #F64C72;
@@ -510,7 +523,7 @@ figcaption {
   font-size: 2rem;
   font-weight: 400;
   color: #553D67;
-  font-family: "Mulish";
+  font-family: "Mulish", system-ui;
   letter-spacing: 2px;
 }
 .team_flex {
@@ -544,10 +557,11 @@ figcaption {
 }
 
 .team_card {
-  width: 13rem;
-  min-width: 13rem;
+  width: 15rem;
+  min-width: 15rem;
   height: 24rem;
   padding: 1rem;
+  font-family: "Mulish", system-ui;
 }
 .team_card_title {
   font-weight: 600;
@@ -560,6 +574,7 @@ figcaption {
 }
 .team_card_text {
   color: #697694;
+  font-family: "Open Sans", system-ui;
 }
 .team_card section {
   margin: 1rem 0;
@@ -594,6 +609,7 @@ figcaption {
   flex-direction: column;
   overflow: hidden;
   width: 100%;
+  font-family: "Open Sans", system-ui;
 }
 .feedback_scroller {
   width: 100%;
@@ -648,6 +664,7 @@ figcaption {
   width: 100%;
   background-color: #F64C72;
   overflow-x: hidden;
+  font-family: "Mulish", system-ui;
   color: white;
   padding: 4rem 2rem;
 }
@@ -656,6 +673,7 @@ figcaption {
   font-size: 0.95rem;
   margin: 1rem;
   text-align: center;
+  font-family: "Open Sans", system-ui;
 }
 .work_title {
   font-size: 1.5rem;
@@ -681,6 +699,7 @@ figcaption {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  font-family: "Open Sans", system-ui;
   flex-direction: row;
   color: #553D67;
   text-align: left;

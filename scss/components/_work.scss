@@ -4,6 +4,7 @@
     width: 100%;
     background-color: $primary-bg;
     overflow-x: hidden;
+    @include primary_font;
     color: white;
     padding: 4rem 2rem;
     & p{
@@ -11,6 +12,7 @@
         font-size: 0.95rem;
         margin: 1rem;
         text-align: center;
+        @include secondary_font;
     }
     &_title{
         font-size: 1.5rem;
