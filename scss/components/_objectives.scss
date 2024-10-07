@@ -21,15 +21,14 @@
     }
 }
 .objective_card{
-    width: 80%;
+    flex-basis: 300px;
     background-color: #fff;
     @include flex(center,center);
-    flex-direction: column;
     text-align: center;
     padding: 2rem 2rem 0 2rem;
     box-shadow: 0px 10px 15px 0px #06000040;
     font-family: "Mulish";
-    height: 25rem;
+    height: 30dvh;
     &_text{
         font-weight: 100;
         color: #495C76;
@@ -37,15 +36,8 @@
     }
     z-index: 2;
 }
-@media (min-width:700px){
+@media (max-width:500px){
     .objective_card{
-        width: 40dvw;
-        height: 40dvh;
-    }
-}
-@media (min-width:900px){
-    .objective_card{
-        width: 30dvw;
         height: 40dvh;
     }
 }
