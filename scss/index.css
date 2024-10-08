@@ -423,7 +423,7 @@ figcaption {
   padding: 2rem 2rem 0 2rem;
   box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.2509803922);
   font-family: "Mulish", system-ui;
-  height: 50dvh;
+  height: 55dvh;
   z-index: 2;
 }
 .objective_card_text {
@@ -435,7 +435,7 @@ figcaption {
 
 @media (max-width: 500px) {
   .objective_card {
-    height: 50dvh;
+    height: 55dvh;
   }
 }
 .mission {
