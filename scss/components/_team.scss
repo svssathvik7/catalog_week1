@@ -72,7 +72,9 @@
 @media (max-width:500px){
     .team{
         &_card{
-            width: 80%;
+            width: 18rem;
+            min-width: 15rem;
+            height: 24rem;
         }
         &_flex{
             flex-direction: column;

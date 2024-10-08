@@ -588,7 +588,9 @@ figcaption {
 
 @media (max-width: 500px) {
   .team_card {
-    width: 80%;
+    width: 18rem;
+    min-width: 15rem;
+    height: 24rem;
   }
   .team_flex {
     flex-direction: column;
