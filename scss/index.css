@@ -615,25 +615,27 @@ figcaption {
 }
 .feedback_scroller {
   width: 100%;
-  overflow-x: scroll;
+  overflow-x: auto !important;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  padding: 1rem;
+  padding: 2rem;
   gap: 1rem;
+  flex-wrap: nowrap;
 }
 .feedback_card {
-  width: 18rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
   flex-direction: column;
+  width: 15rem;
+  min-width: 15rem;
+  height: 24rem;
   padding: 1rem;
   box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.2509803922);
-  height: 18rem;
 }
 .feedback_card_text {
   margin-top: 1rem;
@@ -652,9 +654,16 @@ figcaption {
   font-size: 0.75rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .feedback_card {
-    width: 80dvw;
+    height: 22rem;
+  }
+  .feedback_scroller {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 .work {
