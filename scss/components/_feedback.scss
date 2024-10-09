@@ -36,6 +36,11 @@
     color: #6D7D8B;
     font-size: 0.75rem;
 }
+.feedback_img{
+    width: 2rem;
+    height: auto;
+    aspect-ratio: 1/1;
+}
 @media (max-width:700px){
     .feedback{
         &_card{

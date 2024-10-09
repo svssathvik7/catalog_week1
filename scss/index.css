@@ -583,7 +583,8 @@ figcaption {
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
-  height: auto;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 @media (max-width: 500px) {
@@ -652,6 +653,12 @@ figcaption {
 .feedback_user_caption {
   color: #6D7D8B;
   font-size: 0.75rem;
+}
+
+.feedback_img {
+  width: 2rem;
+  height: auto;
+  aspect-ratio: 1/1;
 }
 
 @media (max-width: 700px) {
