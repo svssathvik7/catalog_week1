@@ -1,6 +1,6 @@
 .hero{
     width: 100%;
-    background: url("../assets/Hero-Bg.svg") no-repeat center center;
+    background: url("../assets/Hero-Bg.webp") no-repeat center center;
     background-size: cover;
     min-height: 90dvh;
     @include primary_font;
@@ -52,4 +52,6 @@
     border: none;
     color: #BBC8D4;
     padding: 1rem;
+    border: 2px solid #BBC8D4;
+    outline: none;
 }
